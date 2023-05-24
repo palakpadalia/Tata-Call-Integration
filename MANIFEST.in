@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include tata_app *.css
+recursive-include tata_app *.csv
+recursive-include tata_app *.html
+recursive-include tata_app *.ico
+recursive-include tata_app *.js
+recursive-include tata_app *.json
+recursive-include tata_app *.md
+recursive-include tata_app *.png
+recursive-include tata_app *.py
+recursive-include tata_app *.svg
+recursive-include tata_app *.txt
+recursive-exclude tata_app *.pyc
